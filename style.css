@@ -38,7 +38,7 @@ background-color: black;
     float:left;
     width: 100%;
     height: 100%;
-    background-color:#ffffff88;
+    background-image: linear-gradient(#ffffff50,#ffffffff,#ffffffff);
     z-index: 3;
     position: absolute;
     display: block;
