@@ -11,6 +11,16 @@
 <div class="backgroundimage">
     <img src="/i/girl-getting-out-of-the-train-3-38402160.jpg" class="center">
 </div>
+<script>
+   $.get("/nav.html", function(data){
+       $("#nav-placeholder").replaceWith(data);
+   });
+   </script>
+<div id="nav-placeholder">
+
+</div>
+
+
 <div class="imagebackground">
     <p></p>
     <img src="/i/harrytheplanet.png" class="image">

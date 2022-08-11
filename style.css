@@ -19,6 +19,12 @@ background-color: black;
 .backgroundimage {
     align-items: center;
 }
+.nav {
+    top: 1%;
+    right: 1%;
+    z-index: 5;
+    float:right;
+}
 .center {
     margin-left: auto;
     margin-right: auto;
