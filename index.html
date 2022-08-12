@@ -2,15 +2,18 @@
 <head>
 <title>welcome</title>
 <link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/x-icon" href="/i/the greatesttransparentthesecond.png"><!-- yes i do realise this isnt a .ico every browser can use .png as favicon https://www.w3schools.com/html/html_favicon.asp-->
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<!--yes i did have to look up how to comment in html, dont laugh-->
 </head>
 <body>
 
 <div class="title">
     <p>dynamitegus</p>
 </div>
-<div class="backgroundimage">
-    <img src="/i/girl-getting-out-of-the-train-3-38402160.jpg" class="center">
-</div>
+<!--<div class="backgroundimage">
+    <img src="/i/girl-getting-out-of-the-train-3-38402160.jpg" id="centre">
+</div>-->
 <script>
    $.get("/nav.html", function(data){
        $("#nav-placeholder").replaceWith(data);
@@ -22,10 +25,9 @@
 
 
 <div class="imagebackground">
-    <p></p>
-    <img src="/i/harrytheplanet.png" class="image">
-    <img src="/i/rubysad.png" class="image" style="left: 25.75%;">
-    <img src="/i/whatareyoudoingtherestepben.png" class="image" style="left: 50.50%;">
-    <img src="/i/6776545651.jpg" class="image" style="left: 75.25%;">
+    <img src="/i/harrytheplanet.png" class="image" id="left">
+    <img src="/i/rubysad.png" class="image"  id="left">
+    <img src="/i/whatareyoudoingtherestepben.png" class="image" id="right">
+    <img src="/i/6776545651.jpg" class="image" id="right">
 </div>
 </body>
