@@ -23,7 +23,7 @@ body {
     font-family: aglet-mono, mono;
     font-weight: 400;
     font-style: normal;
-    size: auto;
+
     
 }
 
@@ -116,4 +116,14 @@ body {
     border-radius: 2vw 2vw 0 0;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+#sociallogos img{
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    z-index: 3;
+    float: center;
+    margin: 40vh 0 0 50vw;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
