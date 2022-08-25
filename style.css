@@ -24,13 +24,13 @@ body {
     font-weight: 400;
     font-style: normal;
 
-    
+
 }
 
 .title p {
     margin: 0;
     text-shadow:
-    1px 1px 0 #808080;
+        1px 1px 0 #808080;
 }
 
 .backgroundimage {
@@ -52,11 +52,13 @@ body {
     text-shadow:
         1px 1px 0 #808080;
 }
+
 .nav a:hover {
     color: #bbbbbb;
     text-shadow:
-    1px 1px 0 #404040;
+        1px 1px 0 #404040;
 }
+
 .nav p {
     color: #ffffff;
     font-size: 2vw;
@@ -65,22 +67,25 @@ body {
     text-shadow:
         1px 1px 0 #000;
 }
+
 #logo {
     z-index: 5;
     float: left;
     margin: .5vw;
 }
+
 #logo img {
     width: 4vw;
 
 }
+
 #centre {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
-.imagebackground img{
+.imagebackground img {
     width: 23vw;
     height: 23vw;
     border-radius: 2vw;
@@ -94,22 +99,19 @@ body {
 #right {
 
     float: right;
-
-
 }
+
 .goupyoupieceofshit {
     float: top;
     margin-bottom: auto;
-
 }
 
 .imagebackground {
     padding: .5vw;
     top: 60%;
-    float: center;
     width: 97vw;
     height: auto;
-    background-image: linear-gradient(#ffffff50,#ffffffff,#ffffffff);
+    background-image: linear-gradient(#ffffff50, #ffffffff, #ffffffff);
     z-index: 3;
     position: absolute;
     display: block;
@@ -117,13 +119,63 @@ body {
     margin-left: 1vw;
     margin-right: 1vw;
 }
-#sociallogos img{
-    align-items: center;
+
+#sociallogos img {
     width: 5vw;
     height: 5vw;
     z-index: 3;
-    float: center;
     margin: 40vh 0 0 50vw;
     transform: translate(-50%, -50%);
     position: absolute;
+}
+
+.hvrimg:hover {
+    filter: invert(1);
+}
+
+.row {
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imgchange {
+    display: block;
+    width: 23vw;
+    height: 23vw;
+    flex-grow: 1;
+}
+
+.imagetofade {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imgchange:hover .image {
+    opacity: 0.3;
+}
+
+.imgchange:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #5e5e5e88;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
