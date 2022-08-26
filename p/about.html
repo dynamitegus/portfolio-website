@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>welcome</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/i/the greatesttransparentthesecond.png">
+    <!-- yes i do realise this isnt a .ico every browser can use .png as favicon https://www.w3schools.com/html/html_favicon.asp-->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!--yes i did have to look up how to comment in html, dont laugh-->
+</head>
+
+<body>
+
+    <div class="title">
+        <p>dynamitegus</p>
+    </div>
+    <!--<div class="backgroundimage">
+    <img src="/i/girl-getting-out-of-the-train-3-38402160.jpg" id="centre">
+</div>-->
+    <div id="logo">
+        <a href="/"><img src="/i/the greatesttransparentthesecond.png"  class="hvrimg"></a>
+    </div>
+    <script>
+        $.get("/nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <div id="nav-placeholder">
+
+    </div>
+
+<div id="about-text">
+    <p>Hi, I am DynamiteGus, a teenager from a little place called earth. You may of heard of it.<br>
+        I am a budding Programmer that doesnt really know what they are doing and I am interested in computers and
+        other electronics. <br>
+        I play a lot of minecraft among other games, and I use Ubuntu 22.04 LTS on my laptop and I love linux<br>
+        This about me copied from my personal website <a href="https://dynamitegus.org">dynamitegus.org</a><br>
+        This page has a <b>private</b> repo on github, if you want access to see it then you can email me at <a href="mailto:contact@dynamitegus.org">contact@dynamitegus.org</a>.<br></p>
+</div>
+
+</body>
