@@ -3,12 +3,13 @@
 body {
     margin: 0;
     /*background-color: black;*/
-    background-image: url(/i/girl-getting-out-of-the-train-3-38402160.jpg);
+    background-image: url(/i/20220226_200422.jpg);
     background-position: center top;
     background-size: auto 150vh;
     background-repeat: no-repeat;
     background-color: black;
     background-blend-mode: screen;
+    background-position-y: 15%;
 
 }
 
